@@ -1,12 +1,22 @@
 
 import React, { useState } from 'react';
 // import PropTypes from 'prop-types';
-import {    Col, 
-            Container, 
-            Content, 
-            Divider, 
-            FlexboxGrid, } from 'rsuite';
+import {
+    Col,
+    Container,
+    Content,
+    Divider,
+    FlexboxGrid,
+    List,
+} from 'rsuite';
+// icons
 import AddCategory from './components/AddCategory';
+// import PcIcon from '@rsuite/icons/Pc';
+// import MobileIcon from '@rsuite/icons/Mobile';
+import DeviceIcon from '@rsuite/icons/Device';
+
+
+
 
 const GifExpertApp = () => {
     const [categories, setCategories] = useState(['One Punch', 'Samurai X', 'Dragin ball']);
@@ -22,16 +32,30 @@ const GifExpertApp = () => {
                     <FlexboxGrid justify="center">
                         <FlexboxGrid.Item as={Col} colspan={24} xs={20}>
                             <h2>Gif Expert App</h2>
-                            <Divider>Divider</Divider>
+                            <Divider>
+                                <DeviceIcon style={{ fontSize: '2em' }} />
+                            </Divider>
                             <FlexboxGrid justify="center">
                                 <FlexboxGrid.Item as={Col} xs={12}>
-                                    <AddCategory/>
+                                    <AddCategory />
 
                                 </FlexboxGrid.Item>
 
                             </FlexboxGrid>
-                            <Divider></Divider>
-                            <ol>
+
+                            {/* <Divider></Divider> */}
+
+                            <List className="mt-5" bordered>
+                                {
+                                    categories.map((cat, ind) => (
+                                        <List.Item key={ind + 1} index={ind}>
+                                            {cat}
+                                        </List.Item>
+
+                                    ))
+                                }
+                            </List>
+                            {/* <ol>
                                 {
                                     categories.map((cat, ind) => {
                                         return (
@@ -42,7 +66,7 @@ const GifExpertApp = () => {
                                     })
                                 }
 
-                            </ol>
+                            </ol> */}
                         </FlexboxGrid.Item>
                     </FlexboxGrid>
                 </Content>
