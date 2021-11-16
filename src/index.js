@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import GifExpertApp from './GifExpertApp';
 
 import './index.css';
-import 'rsuite/dist/rsuite.min.css'
 import { CustomProvider } from 'rsuite';
-// import 'rsuite/styles/index.less';
+// import 'rsuite/dist/rsuite.min.css'
+import 'rsuite/styles/index.less';
 
 ReactDOM.render(
   <CustomProvider theme="dark">

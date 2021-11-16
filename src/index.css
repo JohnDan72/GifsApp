@@ -1,21 +1,48 @@
+#carousel1{
+    background: url("./assets/images/carousel1.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-color: rgb(51 51 51 / 35%);
+    background-blend-mode: multiply;
+}
+#carousel2{
+    background: url("./assets/images/carousel2.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-color: rgb(51 51 51 / 35%);
+    background-blend-mode: multiply;
+}
+#carousel3{
+    background: url("./assets/images/carousel3.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-color: rgb(51 51 51 / 35%);
+    background-blend-mode: multiply;
+}
+#carousel4{
+    background: url("./assets/images/carousel4.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-color: rgb(51 51 51 / 35%);
+    background-blend-mode: multiply;
+}
 
-
-:root{
-  --bg-color: #0A030D;
-  --primary: #591E55;
-  --secondary: #1F0F26;
-  --third: #9E6BBF;
-  --fourth: #D0AEF2;
-  --colorText: #eee;
+.rs-carousel{
+    max-height: 300px;
 }
 
 
-body{
-  /* color: var(--colorText) !important;
-  background-color: var(--bg-color) !important; */
+.v-a-middle{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
 
 /*Bootstrap CSS margin and padding*/
 .m-0 {
