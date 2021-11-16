@@ -28,7 +28,7 @@ const AddCategory = ({ categories , setCategories }) => {
             return;
         }
 
-        setCategories(cats => [...cats, inputValue]);
+        setCategories(cats => [inputValue , ...cats ]);
         setInputValue('');
     }
     return (

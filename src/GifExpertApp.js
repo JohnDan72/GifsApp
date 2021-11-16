@@ -1,14 +1,14 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 // import PropTypes from 'prop-types';
 import {
     Carousel,
     Col,
     Container,
     Content,
+    CustomProvider,
     Divider,
     FlexboxGrid,
     Header,
-    List,
 } from 'rsuite';
 // icons
 import { BsSearch } from 'react-icons/bs';
@@ -21,13 +21,14 @@ import GifGrid from './components/GifGrid';
 
 
 const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['Dragin ball']);
+    const [categories, setCategories] = useState([]);
+    const [theme, settheme] = useState("dark");
 
     return (
-        <>
+        <CustomProvider theme={theme}>
             <Container >
                 <Header>
-                    <NavBarHeader />
+                    <NavBarHeader settheme={settheme}/>
                 </Header>
                 <Content className="mt-1">
                     <FlexboxGrid justify="center">
@@ -35,7 +36,7 @@ const GifExpertApp = () => {
                             <Carousel    
                                         className="custom-slider"
                                         shape='bar'
-                                        heigh="100">
+                                        >
                                 <div id="carousel1">
                                     <div className="v-a-middle" justify="center">
                                         <h3>Gif Expert</h3>
@@ -71,10 +72,10 @@ const GifExpertApp = () => {
 
                             </FlexboxGrid>
 
-                            <Content className="my-5">
+                            <Content className="my-5 ">
                             {
-                                categories.map((cat , ind) => (
-                                    <GifGrid category={cat} key={ind}/>
+                                categories.map((cat) => (
+                                    <GifGrid category={cat} key={cat}/>
                                 ))
                             }
 
@@ -86,7 +87,7 @@ const GifExpertApp = () => {
                 </Content>
             </Container>
 
-        </>
+        </ CustomProvider>
     );
 }
 

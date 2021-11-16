@@ -1,32 +1,20 @@
 
 import React from 'react';
-import PropTypes from 'prop-types';
-import { List, Panel, Placeholder } from 'rsuite';
+// import PropTypes from 'prop-types';
+import { Panel } from 'rsuite';
+import styles from '../css/GifGridItem.module.css';
 
-const { Paragraph } = Placeholder;
 
 
-const propTypes = {};
-
-const defaultProps = {};
-
-/**
- * 
- */
-const GifGridItem = ({ id, title, url }) => {
+const GifGridItem = ({ id, title, url , shortName }) => {
     return (
-        <Panel bordered header={title}>
-            <img src={url} />
+        <Panel bodyFill className={styles.rsPanel}> 
+            <img src={url} className={styles.imgCard} alt={title} />
+            <Panel header={shortName}></Panel>
         </Panel>
-        // <List.Item  appearance="primary">
-        //     <img src={url} alt={title}/>
-        //     {title}
-        // </List.Item>
     );
 }
 
-GifGridItem.propTypes = propTypes;
-GifGridItem.defaultProps = defaultProps;
 // #endregion
 
 export default GifGridItem;

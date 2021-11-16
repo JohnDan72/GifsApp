@@ -1,5 +1,7 @@
+
+
 #carousel1{
-    background: url("./assets/images/carousel1.jpg");
+    background: url("https://media1.giphy.com/media/VXJWhaO7afRe/giphy.gif?cid=3828c31fn23sgcds2q8sw1ylwqi6953rmkhs4xs1fbyyxlwv&rid=giphy.gif&ct=g");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -7,7 +9,7 @@
     background-blend-mode: multiply;
 }
 #carousel2{
-    background: url("./assets/images/carousel2.jpg");
+    background: url("https://media2.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif?cid=3828c31fvg0joh26bangon7kegq8cjex7lliiyw4omu7k28x&rid=giphy.gif&ct=g");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -15,7 +17,7 @@
     background-blend-mode: multiply;
 }
 #carousel3{
-    background: url("./assets/images/carousel3.jpg");
+    background: url("https://media4.giphy.com/media/93RImebAuEKkgRzcPr/giphy.gif?cid=3828c31fkhnn7hjry5633znv6lsglt6btf14fe4af1c4355h&rid=giphy.gif&ct=g");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -23,7 +25,7 @@
     background-blend-mode: multiply;
 }
 #carousel4{
-    background: url("./assets/images/carousel4.jpg");
+    background: url("https://media4.giphy.com/media/vBjLa5DQwwxbi/giphy.gif?cid=3828c31fkhnn7hjry5633znv6lsglt6btf14fe4af1c4355h&rid=giphy.gif&ct=g");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -31,8 +33,9 @@
     background-blend-mode: multiply;
 }
 
+/* RSUITE CLASSES */
 .rs-carousel{
-    max-height: 300px;
+    max-height: 350px;
 }
 
 
@@ -44,7 +47,13 @@
     align-items: center;
 }
 
-/*Bootstrap CSS margin and padding*/
+/*Bootstrap CSS margin, padding, img fluid*/
+
+.img-fluid {
+    width: 100%;
+    height: auto; 
+}
+
 .m-0 {
   margin: 0 !important;
 }
