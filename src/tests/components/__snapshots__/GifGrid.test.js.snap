@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas GifGridComponent debe mostrar items cuando se cargan imágenes 1`] = `
+<Fragment>
+  <h5>
+    Goku
+  </h5>
+  <Divider />
+  <Row
+    className="my-2 animate__animated animate__fadeIn"
+  >
+    <Col
+      className="mt-3"
+      key="asd"
+      lg={6}
+      md={8}
+      xs={12}
+    >
+      <GifGridItem
+        id="asd"
+        shortName="asdasd"
+        title="asdasd"
+        url="https://localhost/image.jpg"
+      />
+    </Col>
+    <Col
+      className="mt-3"
+      key="asd2"
+      lg={6}
+      md={8}
+      xs={12}
+    >
+      <GifGridItem
+        id="asd2"
+        shortName="asdasd"
+        title="asdasd"
+        url="https://localhost/image.jpg"
+      />
+    </Col>
+    <Col
+      className="mt-3"
+      key="asd3"
+      lg={6}
+      md={8}
+      xs={12}
+    >
+      <GifGridItem
+        id="asd3"
+        shortName="asdasd"
+        title="asdasd"
+        url="https://localhost/image.jpg"
+      />
+    </Col>
+  </Row>
+</Fragment>
+`;
+
+exports[`Pruebas GifGridComponent should render GifGrid component 1`] = `
+<Fragment>
+  <h5>
+    Goku
+  </h5>
+  <Divider />
+  <FlexboxGrid
+    justify="center"
+  >
+    <FlexboxGridItem>
+      <Time
+        spin={true}
+        style={
+          Object {
+            "fontSize": "3rem",
+          }
+        }
+      />
+    </FlexboxGridItem>
+  </FlexboxGrid>
+  <Row
+    className="my-2 animate__animated animate__fadeIn"
+  />
+</Fragment>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de AddCategoryComponent should render a AppCategory component 1`] = `
+<Fragment>
+  <Form
+    onSubmit={[Function]}
+  >
+    <InputGroup
+      size="md"
+    >
+      <Input
+        onChange={[Function]}
+        placeholder="nueva categoría"
+        value=""
+      />
+      <InputGroupButton
+        type="submit"
+      >
+        Agregar
+      </InputGroupButton>
+    </InputGroup>
+  </Form>
+</Fragment>
+`;

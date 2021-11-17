@@ -14,7 +14,7 @@ const AddCategory = ({ categories , setCategories }) => {
     const [inputValue, setInputValue] = useState('')
 
     const handleInputChange = (newValue) => {
-        console.log(newValue);
+        // console.log(newValue);
         setInputValue(newValue)
     }
 
@@ -39,7 +39,6 @@ const AddCategory = ({ categories , setCategories }) => {
                         placeholder="nueva categoría"
                         onChange={handleInputChange}
                     />
-                    {/*onClick={(e) => handleAdd()}*/}
                     <InputGroup.Button type="submit">
                         Agregar
                     </InputGroup.Button>

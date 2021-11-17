@@ -20,8 +20,8 @@ import GifGrid from './components/GifGrid';
 
 
 
-const GifExpertApp = () => {
-    const [categories, setCategories] = useState([]);
+const GifExpertApp = ({defaultCats = []}) => {
+    const [categories, setCategories] = useState(defaultCats);
     const [theme, settheme] = useState("dark");
 
     return (

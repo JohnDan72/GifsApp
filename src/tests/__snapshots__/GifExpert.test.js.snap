@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas Gif Expert should render GifExpert  1`] = `
+<CustomProvider
+  theme="dark"
+>
+  <Container>
+    <Header>
+      <NavBarHeader
+        settheme={[Function]}
+      />
+    </Header>
+    <Content
+      className="mt-1"
+    >
+      <FlexboxGrid
+        justify="center"
+      >
+        <FlexboxGridItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "as": [Function],
+                "className": [Function],
+                "classPrefix": [Function],
+                "lg": [Function],
+                "lgHidden": [Function],
+                "lgOffset": [Function],
+                "lgPull": [Function],
+                "lgPush": [Function],
+                "md": [Function],
+                "mdHidden": [Function],
+                "mdOffset": [Function],
+                "mdPull": [Function],
+                "mdPush": [Function],
+                "sm": [Function],
+                "smHidden": [Function],
+                "smOffset": [Function],
+                "smPull": [Function],
+                "smPush": [Function],
+                "xs": [Function],
+                "xsHidden": [Function],
+                "xsOffset": [Function],
+                "xsPull": [Function],
+                "xsPush": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          xs={24}
+        >
+          <Carousel
+            className="custom-slider"
+            shape="bar"
+          >
+            <div
+              id="carousel1"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Gif Expert
+                </h3>
+              </div>
+            </div>
+            <div
+              id="carousel2"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Busca gifs de tu interés
+                </h3>
+              </div>
+            </div>
+            <div
+              id="carousel3"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Contamos con más de 1,000,000 de posibilidades
+                </h3>
+              </div>
+            </div>
+            <div
+              id="carousel4"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Encuentra solo lo mejor
+                </h3>
+              </div>
+            </div>
+          </Carousel>
+        </FlexboxGridItem>
+        <FlexboxGridItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "as": [Function],
+                "className": [Function],
+                "classPrefix": [Function],
+                "lg": [Function],
+                "lgHidden": [Function],
+                "lgOffset": [Function],
+                "lgPull": [Function],
+                "lgPush": [Function],
+                "md": [Function],
+                "mdHidden": [Function],
+                "mdOffset": [Function],
+                "mdPull": [Function],
+                "mdPush": [Function],
+                "sm": [Function],
+                "smHidden": [Function],
+                "smOffset": [Function],
+                "smPull": [Function],
+                "smPush": [Function],
+                "xs": [Function],
+                "xsHidden": [Function],
+                "xsOffset": [Function],
+                "xsPull": [Function],
+                "xsPush": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          className="mt-5"
+          colspan={24}
+          xs={20}
+        >
+          <h3>
+            Gif Expert App
+          </h3>
+          <Divider>
+            <BsSearch
+              style={
+                Object {
+                  "fontSize": "1.2em",
+                }
+              }
+            />
+          </Divider>
+          <FlexboxGrid
+            justify="center"
+          >
+            <FlexboxGridItem
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "as": [Function],
+                    "className": [Function],
+                    "classPrefix": [Function],
+                    "lg": [Function],
+                    "lgHidden": [Function],
+                    "lgOffset": [Function],
+                    "lgPull": [Function],
+                    "lgPush": [Function],
+                    "md": [Function],
+                    "mdHidden": [Function],
+                    "mdOffset": [Function],
+                    "mdPull": [Function],
+                    "mdPush": [Function],
+                    "sm": [Function],
+                    "smHidden": [Function],
+                    "smOffset": [Function],
+                    "smPull": [Function],
+                    "smPush": [Function],
+                    "xs": [Function],
+                    "xsHidden": [Function],
+                    "xsOffset": [Function],
+                    "xsPull": [Function],
+                    "xsPush": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              xs={12}
+            >
+              <AddCategory
+                categories={Array []}
+                setCategories={[Function]}
+              />
+            </FlexboxGridItem>
+          </FlexboxGrid>
+          <Content
+            className="my-5 "
+          />
+        </FlexboxGridItem>
+      </FlexboxGrid>
+    </Content>
+  </Container>
+</CustomProvider>
+`;
+
+exports[`Pruebas Gif Expert should show an categories list 1`] = `
+<CustomProvider
+  theme="dark"
+>
+  <Container>
+    <Header>
+      <NavBarHeader
+        settheme={[Function]}
+      />
+    </Header>
+    <Content
+      className="mt-1"
+    >
+      <FlexboxGrid
+        justify="center"
+      >
+        <FlexboxGridItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "as": [Function],
+                "className": [Function],
+                "classPrefix": [Function],
+                "lg": [Function],
+                "lgHidden": [Function],
+                "lgOffset": [Function],
+                "lgPull": [Function],
+                "lgPush": [Function],
+                "md": [Function],
+                "mdHidden": [Function],
+                "mdOffset": [Function],
+                "mdPull": [Function],
+                "mdPush": [Function],
+                "sm": [Function],
+                "smHidden": [Function],
+                "smOffset": [Function],
+                "smPull": [Function],
+                "smPush": [Function],
+                "xs": [Function],
+                "xsHidden": [Function],
+                "xsOffset": [Function],
+                "xsPull": [Function],
+                "xsPush": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          xs={24}
+        >
+          <Carousel
+            className="custom-slider"
+            shape="bar"
+          >
+            <div
+              id="carousel1"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Gif Expert
+                </h3>
+              </div>
+            </div>
+            <div
+              id="carousel2"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Busca gifs de tu interés
+                </h3>
+              </div>
+            </div>
+            <div
+              id="carousel3"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Contamos con más de 1,000,000 de posibilidades
+                </h3>
+              </div>
+            </div>
+            <div
+              id="carousel4"
+            >
+              <div
+                className="v-a-middle"
+                justify="center"
+              >
+                <h3>
+                  Encuentra solo lo mejor
+                </h3>
+              </div>
+            </div>
+          </Carousel>
+        </FlexboxGridItem>
+        <FlexboxGridItem
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "as": [Function],
+                "className": [Function],
+                "classPrefix": [Function],
+                "lg": [Function],
+                "lgHidden": [Function],
+                "lgOffset": [Function],
+                "lgPull": [Function],
+                "lgPush": [Function],
+                "md": [Function],
+                "mdHidden": [Function],
+                "mdOffset": [Function],
+                "mdPull": [Function],
+                "mdPush": [Function],
+                "sm": [Function],
+                "smHidden": [Function],
+                "smOffset": [Function],
+                "smPull": [Function],
+                "smPush": [Function],
+                "xs": [Function],
+                "xsHidden": [Function],
+                "xsOffset": [Function],
+                "xsPull": [Function],
+                "xsPush": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          className="mt-5"
+          colspan={24}
+          xs={20}
+        >
+          <h3>
+            Gif Expert App
+          </h3>
+          <Divider>
+            <BsSearch
+              style={
+                Object {
+                  "fontSize": "1.2em",
+                }
+              }
+            />
+          </Divider>
+          <FlexboxGrid
+            justify="center"
+          >
+            <FlexboxGridItem
+              as={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "as": [Function],
+                    "className": [Function],
+                    "classPrefix": [Function],
+                    "lg": [Function],
+                    "lgHidden": [Function],
+                    "lgOffset": [Function],
+                    "lgPull": [Function],
+                    "lgPush": [Function],
+                    "md": [Function],
+                    "mdHidden": [Function],
+                    "mdOffset": [Function],
+                    "mdPull": [Function],
+                    "mdPush": [Function],
+                    "sm": [Function],
+                    "smHidden": [Function],
+                    "smOffset": [Function],
+                    "smPull": [Function],
+                    "smPush": [Function],
+                    "xs": [Function],
+                    "xsHidden": [Function],
+                    "xsOffset": [Function],
+                    "xsPull": [Function],
+                    "xsPush": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              xs={12}
+            >
+              <AddCategory
+                categories={
+                  Array [
+                    "one punch",
+                    "dragon ball",
+                  ]
+                }
+                setCategories={[Function]}
+              />
+            </FlexboxGridItem>
+          </FlexboxGrid>
+          <Content
+            className="my-5 "
+          >
+            <GifGrid
+              category="one punch"
+              key="one punch"
+            />
+            <GifGrid
+              category="dragon ball"
+              key="dragon ball"
+            />
+          </Content>
+        </FlexboxGridItem>
+      </FlexboxGrid>
+    </Content>
+  </Container>
+</CustomProvider>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGridItem Test should render component 1`] = `
+<Panel
+  bodyFill={true}
+  className="rsPanel"
+>
+  <img
+    alt="Saitama One Punch Man"
+    className="imgCard"
+    src="https://media1.giphy.com/media/VXJWhaO7afRe/giphy.gif?cid=3828c31fn23sgcds2q8sw1ylwqi6953rmkhs4xs1fbyyxlwv&rid=giphy.gif&ct=g"
+  />
+  <Panel
+    header="Saitama One Punch Man"
+  />
+</Panel>
+`;

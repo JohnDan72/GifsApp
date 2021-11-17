@@ -1,10 +1,15 @@
 
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import { Panel } from 'rsuite';
 import styles from '../css/GifGridItem.module.css';
 
 
+const propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+    shortName: PropTypes.string.isRequired,
+}
 
 const GifGridItem = ({ id, title, url , shortName }) => {
     return (
@@ -15,6 +20,7 @@ const GifGridItem = ({ id, title, url , shortName }) => {
     );
 }
 
+GifGridItem.propTypes = propTypes;
 // #endregion
 
 export default GifGridItem;
